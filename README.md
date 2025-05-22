@@ -23,6 +23,10 @@ Integrates particularly well with [Flarum Rich Text Editor](https://discuss.flar
 
 This repository is a fork of [askvortsov1/flarum-checklist](https://github.com/askvortsov1/flarum-checklist), with some bugfix.
 
+### TODO
+
+- **BUG：**子清单不论是否checked，都会因为其父级checked而被添加删除线样式
+
 ## Installation & Updating
 
 Install with composer:
