@@ -1,5 +1,5 @@
 {
-  "name": "@askvortsov/flarum-checklist",
+  "name": "@piwind/flarum-checklist",
   "version": "0.0.0",
   "private": true,
   "dependencies": {

@@ -3,7 +3,7 @@ import Application from 'flarum/common/Application';
 
 export default function () {
   function applyChecklistClass() {
-    if (app.forum.attribute('askvortsov-checklist.cross_out_completed_items')) {
+    if (app.forum.attribute('piwind-checklist.cross_out_completed_items')) {
       $('.App').addClass('checklist-cross-completed');
     } else {
       $('.App').removeClass('checklist-cross-completed');

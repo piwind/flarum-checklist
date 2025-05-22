@@ -3,7 +3,7 @@ import CommentPost from 'flarum/components/CommentPost';
 import configureRichText from '../common/configureRichText';
 import configureStrikeOut from '../common/configureStrikeOut';
 
-app.initializers.add('askvortsov/flarum-checklist', () => {
+app.initializers.add('piwind/flarum-checklist', () => {
   function toggleCheckbox(post, remainingCheckboxes, checked) {
     let match;
     const checkListRegex = /([\-\*]|[0-9]+\.) (\[[ xX]\])/g;

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of askvortsov/flarum-checklist
+ * This file is part of flarum-checklist
  *
  *  Copyright (c) 2021 Alexander Skvortsov.
  *
@@ -12,5 +12,5 @@
 use Flarum\Database\Migration;
 
 return Migration::addSettings([
-    'askvortsov-checklist.cross_out_completed_items' => true,
+    'piwind-checklist.cross_out_completed_items' => true,
 ]);

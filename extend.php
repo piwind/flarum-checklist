@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of askvortsov/flarum-checklist
+ * This file is part of flarum-checklist
  *
  *  Copyright (c) 2021 Alexander Skvortsov.
  *
@@ -9,7 +9,7 @@
  *  LICENSE file that was distributed with this source code.
  */
 
-namespace Askvortsov\FlarumChecklist;
+namespace Piwind\FlarumChecklist;
 
 use Flarum\Extend;
 use s9e\TextFormatter\Configurator;
@@ -30,5 +30,5 @@ return [
             $config->TaskLists;
         }),
 
-    (new Extend\Settings())->serializeToForum('askvortsov-checklist.cross_out_completed_items', 'askvortsov-checklist.cross_out_completed_items', 'boolval', true),
+    (new Extend\Settings())->serializeToForum('piwind-checklist.cross_out_completed_items', 'piwind-checklist.cross_out_completed_items', 'boolval', true),
 ];

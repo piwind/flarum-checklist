@@ -1,5 +1,5 @@
 {
-  "name": "askvortsov/flarum-checklist",
+  "name": "piwind/flarum-checklist",
   "description": "Checklists for Flarum!",
   "keywords": [
     "flarum"
@@ -7,15 +7,20 @@
   "type": "flarum-extension",
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/askvortsov1/flarum-checklist/issues",
-    "source": "https://github.com/askvortsov1/flarum-checklist",
-    "forum": "https://discuss.flarum.org/d/26457-checklists"
+    "issues": "https://github.com/piwind/flarum-checklist/issues",
+    "source": "https://github.com/piwind/flarum-checklist"
   },
   "require": {
     "flarum/core": "^1.0.0",
     "flarum/markdown": "^1.0.0"
   },
   "authors": [
+    {
+      "name": "piwind",
+      "homepage": "https://github.com/piwind",
+      "email": "piwind95@outlook.com",
+      "role": "Developer"
+    },
     {
       "name": "Alexander Skvortsov",
       "email": "askvortsov@flarum.org",
@@ -24,7 +29,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Askvortsov\\FlarumChecklist\\": "src/"
+      "Piwind\\FlarumChecklist\\": "src/"
     }
   },
   "extra": {
